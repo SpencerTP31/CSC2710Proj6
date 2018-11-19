@@ -1,0 +1,3 @@
+/Users/Spencer/CLionProjects/CSC2710Proj6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Spencer/CLionProjects/CSC2710Proj6/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Spencer/CLionProjects/CSC2710Proj6/cmake-build-debug/CMakeFiles/CSC2710Proj6.dir

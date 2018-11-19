@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Spencer/CLionProjects/CSC2710Proj6/List.h
+stdexcept
+-
+iterator
+-
+iostream
+-
+
+/Users/Spencer/CLionProjects/CSC2710Proj6/graph.h
+iostream
+-
+stack
+-
+queue
+-
+limits.h
+-
+List.h
+/Users/Spencer/CLionProjects/CSC2710Proj6/List.h
+
+/Users/Spencer/CLionProjects/CSC2710Proj6/main.cpp
+iostream
+-
+stack
+-
+queue
+-
+graph.h
+/Users/Spencer/CLionProjects/CSC2710Proj6/graph.h
+List.h
+/Users/Spencer/CLionProjects/CSC2710Proj6/List.h
+
