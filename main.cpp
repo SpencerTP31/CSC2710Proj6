@@ -8,6 +8,7 @@
  *
  * To compile g++ main.cpp and then use IO redirection to run, a.out < (filename)
  */
+
 #include<iostream>
 #include <iomanip>
 #include <stack>

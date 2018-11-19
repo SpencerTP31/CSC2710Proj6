@@ -3,7 +3,7 @@
  * Date: 9-28-2016
  * Class: CSC-2710
  *
- * Documentation has been removed
+ *
  */
 #ifndef LIST
 #define LIST

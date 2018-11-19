@@ -69,6 +69,7 @@ public:
     //if there is a weight on the edge, then you need to modify
     //the item your are adding, add a struct element that contains
     //j and the weight.
+
     bool AddEdge(int i, int j)
     {
         count[j]++;
