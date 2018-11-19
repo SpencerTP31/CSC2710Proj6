@@ -54,7 +54,13 @@ public:
     }
     ~Graph()
     {
-        //delete []headnodes;
+        /*delete []headnodes;
+        delete []count;
+        delete []color;
+        delete []dist;
+        delete []pred;
+        delete []dt;
+        delete []ft;*/
     }
 
 
@@ -164,7 +170,18 @@ public:
         }
     }
 
-
+/*TopologicalOrder Function:
+ *      Uses the graph with the load nodes and puts them in a stack in order to sort them
+ *
+ *precondition:
+ *      takes finalArr[] which is an empty array that will hold the numbers once
+ *      topological has ran
+ *      isCycle is reference flag that will be triggered if a cycle is found
+ *
+ *post condition:
+ *      Once the function is complete the correct topological order will be stored in the finalArr[]
+ *      and if isCycle is set the true the print function will not be ran in main
+ */
     void TopologicalOrder(int finalArr[], bool &isCycle)
     {
         stack<int> S;
